@@ -1,5 +1,3 @@
-# M.SrikarReddy CSE IIT Palakkad
-
 * Boggle Solver
 
 ->Used bootstrap-4.4.1 and Jquery-3.4.1 in this project
@@ -23,3 +21,6 @@
 -> Give the dimensions of the boggle and press submit
 -> Fill the boggle board with lower case alphabets and the press the submit button below it
 -> You will get the output below which are the words that can be formed from the input boggle and also present in the english words of dictonary.
+
+
+**Feel free to make changes in the project and create a pull request**
