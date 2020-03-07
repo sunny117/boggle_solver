@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 class="jumbotron"> Boggle Solver </h1>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="loading" class="container">loading..... Please Wait</div>
+    <div id="boggle_input"  class="container">
+        <div class="jumbotron">
+            <p>Input the size of the boggle board : </p>
+            <label>Rows</label>
+            <input type="number" id="rows"/>
+            <label>Columns</label>
+            <input type="number" id="columns"/>
+            <button id="submit1">Submit</button>
+        </div>
+        <div id="boggle_board" class="jumbotron">
+        </div>
+         <button id="submit">Submit</button>
+        <p></p>
+    </div>
+    
+    <div id="boggle_output" class="container jumbotron">
+        <p> The possible words from the boggle are:</p>
+        <ul id="output"></ul>
+    </div>
+    <script type="text/javascript" src="boggle.js"></script>
+    <style>
+        .cell {
+            width: 2em;
+            height: 2em;
+        }
+    </style>
+</body>
+</html
