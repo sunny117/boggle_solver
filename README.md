@@ -1,5 +1,7 @@
 * Boggle Solver
 
+Github Deploy Link : https://sunny117.github.io/boggle_solver/index
+
 ->Used bootstrap-4.4.1 and Jquery-3.4.1 in this project
 ->The dictonary of english words for checking are taken from https://github.com/dwyl/english-words/blob/71fd8028395eb61be17e47f70dde0ae6994d9b72/words_dictionary.json
 
